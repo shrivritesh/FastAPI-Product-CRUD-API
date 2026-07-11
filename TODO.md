@@ -1,0 +1,5 @@
+- [ ] Analyze repo files relevant to FastAPI app startup
+- [ ] Fix ImportError by aligning `database.py` exports with `main.py` expectations
+- [ ] Update `main.py` to use correct SQLAlchemy session usage (optional but likely needed)
+- [ ] Run `uvicorn main:app --reload` to verify startup
+- [ ] Smoke-test endpoints (optional)
